@@ -48,10 +48,15 @@ for filepath in list_of_files:
         logging.info(f"{filename} is already exists")
 
 """to add in github auto you need to run few codes
-git add .
+git add .  (select changes)
 
-git commit -m "folder structure added"
+git config user.name "Jerry"
 
-git push origin main
+git config user.email "USERNAME@users.noreply.github.com"
 
+git config --list
+
+git commit -m "folder structure added" (save locally (needs name + email))
+
+git push -u origin main (send to GitHub)
 """
